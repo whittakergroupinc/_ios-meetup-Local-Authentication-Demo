@@ -28,13 +28,6 @@
                                     <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
                                 </accessibility>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1h-Vr-nPr">
-                                <rect key="frame" x="0.0" y="107" width="375" height="250"/>
-                                <state key="normal" image="ios-8-touch_id_icon"/>
-                                <connections>
-                                    <action selector="testTouchID:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9kV-Xk-Ma8"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple-logo-grey" translatesAutoresizingMaskIntoConstraints="NO" id="NKl-et-Nqp">
                                 <rect key="frame" x="8" y="599" width="60" height="60"/>
                                 <constraints>
@@ -49,21 +42,25 @@
                                     <constraint firstAttribute="width" constant="80" id="wHB-kk-27g"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1h-Vr-nPr">
+                                <rect key="frame" x="17" y="105" width="340.5" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                <state key="normal" image="ios-8-touch_id_icon"/>
+                                <connections>
+                                    <action selector="testTouchID:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9kV-Xk-Ma8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="AIJ-hI-bak" firstAttribute="trailing" secondItem="c1h-Vr-nPr" secondAttribute="trailing" id="2FU-fR-Aci"/>
                             <constraint firstItem="xsj-F4-yTa" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="3KD-ga-B6B"/>
                             <constraint firstAttribute="bottomMargin" secondItem="AIJ-hI-bak" secondAttribute="bottom" constant="-8" id="5Vg-nj-l5g"/>
                             <constraint firstItem="xsj-F4-yTa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DiH-tf-Y56"/>
-                            <constraint firstItem="xsj-F4-yTa" firstAttribute="leading" secondItem="c1h-Vr-nPr" secondAttribute="leading" id="HQe-VH-ZFZ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NKl-et-Nqp" secondAttribute="bottom" constant="8" symbolic="YES" id="IcF-mh-dan"/>
-                            <constraint firstItem="c1h-Vr-nPr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="87" id="KRo-SL-FOP"/>
-                            <constraint firstItem="xsj-F4-yTa" firstAttribute="trailing" secondItem="c1h-Vr-nPr" secondAttribute="trailing" id="Oda-Pu-5Mr"/>
+                            <constraint firstItem="AIJ-hI-bak" firstAttribute="trailing" secondItem="xsj-F4-yTa" secondAttribute="trailing" id="NYq-ic-eWg"/>
                             <constraint firstAttribute="trailing" secondItem="xsj-F4-yTa" secondAttribute="trailing" id="UBT-aU-dE6"/>
                             <constraint firstItem="NKl-et-Nqp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="bTj-fN-bRD"/>
                             <constraint firstItem="xsj-F4-yTa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="itp-Wc-iVg"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="c1h-Vr-nPr" secondAttribute="bottom" constant="273" id="s39-VM-3gl"/>
                         </constraints>
                     </view>
                 </viewController>

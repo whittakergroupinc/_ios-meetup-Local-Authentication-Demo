@@ -82,6 +82,8 @@ class ViewController: UIViewController {
                     alert.message = "You have authenticated!"
                     self.present(alert, animated: true, completion: nil)
                     
+                    // Perform Action i.e. Segue
+                    
                 } else {
                     // Unsuccessful
                     

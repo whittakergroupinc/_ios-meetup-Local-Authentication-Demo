@@ -415,10 +415,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QX272PA4ZZ;
 				INFOPLIST_FILE = "iOS Meetup Local Authentication Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.whittakergroupinc.iOS-Meetup-Local-Authentication-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -428,10 +430,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QX272PA4ZZ;
 				INFOPLIST_FILE = "iOS Meetup Local Authentication Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.whittakergroupinc.iOS-Meetup-Local-Authentication-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -512,6 +516,7 @@
 				D85B4B681E50D56D0087502D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D85B4B691E50D56D0087502D /* Build configuration list for PBXNativeTarget "iOS Meetup Local Authentication DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				D85B4B6B1E50D56D0087502D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D85B4B6C1E50D56D0087502D /* Build configuration list for PBXNativeTarget "iOS Meetup Local Authentication DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				D85B4B6E1E50D56D0087502D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
